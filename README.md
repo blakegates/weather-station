@@ -1,2 +1,3 @@
 # weather-station
-W.I.P.
+
+My journey into building a home weather station
