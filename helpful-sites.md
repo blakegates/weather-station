@@ -9,3 +9,5 @@ https://github.com/adafruit/Adafruit_CircuitPython_BME680?tab=readme-ov-file
 https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
 
 https://grafana.com/blog/2021/09/27/how-to-visualize-real-time-data-from-an-iot-smart-home-weather-station-with-grafana-dashboards/
+
+https://learn.adafruit.com/python-virtual-environment-usage-on-raspberry-pi/other-ideas
