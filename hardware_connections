@@ -1,0 +1,10 @@
+Using the Adafruit STEMMA QT connectors to prevent soldering
+
+BME680 VIN (Red wire on STEMMA QT) to Raspberry Pi 3.3V Power (Pin 1 or 17)
+BME680 GND (Black wire on STEMMA QT) to Raspberry Pi GND (e.g., Pin 6)
+BME680 SDA (Blue wire on STEMMA QT) to Raspberry Pi SDA (Pin 3)
+BME680 SCL (Yellow wire on STEMMA QT) to Raspberry Pi SCL (Pin 5)
+
+
+
+The BME680 sensor communicates with the Raspberry Pi using the I2C (Inter-Integrated Circuit) protocol. I2C is a widely adopted two-wire serial bus that facilitates communication between multiple devices and a single master, in this case, the Raspberry Pi. This protocol requires only two primary data lines: SDA (Serial Data Line) for transmitting and receiving data, and SCL (Serial Clock Line) for synchronizing data transfer. Additionally, power (VCC/VIN) and ground (GND) connections are necessary for the sensor's operation.
