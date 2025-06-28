@@ -1,4 +1,4 @@
-# Info about the BME680 Sensor
+Info about the BME680 Sensor
 
 The BME680 is a sophisticated 4-in-1 digital environmental sensor developed by Bosch Sensortec. 
 
