@@ -24,5 +24,9 @@
 5. Install Adafruit BME680 library
   1. To simplify interaction with the BME680 sensor in Python, I'm installing the Adafruit CircuitPython BME680 library. It takes out the complexities of low-level I2C communication, and focuses on data interpretation.
   2. I won't be following the rules and running this in a VENV. Not advised, but it's my shit and I do what I want lol
-    1. Straight deleting the file that gives an error
-    2. More info here: https://learn.adafruit.com/python-virtual-environment-usage-on-raspberry-pi/other-ideas#return-to-the-good-ole-days-3158331
+    1. Straight deleting the file that gives an error when trying to run Python outside of a VENV
+    2. More options and info here: https://learn.adafruit.com/python-virtual-environment-usage-on-raspberry-pi/other-ideas#return-to-the-good-ole-days-3158331
+  3. sudo pip3 install adafruit-circuitpython-bme680
+
+6. Python script to pull data from BME680
+  1. See weather.py
