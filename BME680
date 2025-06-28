@@ -1,0 +1,10 @@
+# Info about the BME680 Sensor
+
+The BME680 is a sophisticated 4-in-1 digital environmental sensor developed by Bosch Sensortec. 
+
+It is capable of measuring multiple environmental parameters with notable accuracy and operational ranges:
+
+Temperature: The sensor provides temperature readings with an accuracy of +/- 1.0ºC and operates effectively within a range of -40 to 85 ºC
+Humidity: It measures relative humidity with an accuracy of +/- 3% across its full operational range of 0 to 100%
+Barometric Pressure: The BME680 delivers pressure readings with an accuracy of +/- 1 hPa, operating within a range of 300 to 1100 hPa
+Gas (VOCs): The sensor incorporates a Metal-Oxide (MOX) sensor specifically designed to detect Volatile Organic Compounds (VOCs), which include substances like ethanol and carbon monoxide. This sensor provides a qualitative indication of indoor air quality by outputting resistance values; generally, a higher concentration of VOCs corresponds to a lower resistance.
