@@ -1,0 +1,28 @@
+1. Install Raspberry Pi OS
+  1. I'm running Raspberry Pi OS headless on a Raspberry Pi Zero 2WH
+2. Update system
+  1. sudo apt-get update
+  2. sudo apt-get upgrade
+  3. reboot
+
+3. Enable I2C interface
+  1. open terminal on Raspberry Pi
+  2. sudo raspi-config
+  3. navigate to 'Interface Options'
+  4. select I2C, enable, confirm
+  5. select finish to exit
+  6. reboot
+
+4. Verify I2C
+  1. confirm i2c-tools is installed (this should be but good to check)
+    1. sudo apt-get update
+    2. sudo apt-get install i2c-tools
+  2. confirm i2c interface (or sensor) can be detected
+    1. sudo i2cdetect -y 1
+    2. expect to see 0x77 or 0x76 as the output (default address for BME680)
+
+5. Install Adafruit BME680 library
+  1. To simplify interaction with the BME680 sensor in Python, I'm installing the Adafruit CircuitPython BME680 library. It takes out the complexities of low-level I2C communication, and focuses on data interpretation.
+  2. I won't be following the rules and running this in a VENV. Not advised, but it's my shit and I do what I want lol
+    1. Straight deleting the file that gives an error
+    2. More info here: https://learn.adafruit.com/python-virtual-environment-usage-on-raspberry-pi/other-ideas#return-to-the-good-ole-days-3158331
